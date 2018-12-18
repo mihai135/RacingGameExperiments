@@ -1,13 +1,13 @@
 package org.fasttrackit;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Car car = new Car();
+        car.name = "BMW";
+        car.color = "black";
+        car.doorcount = 4;
     }
 }
